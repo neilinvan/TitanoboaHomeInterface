@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dbackground2"
+    android:orientation="horizontal" 
+    android:layout_gravity="bottom|center">
+
+    <Button
+        android:id="@+id/head"
+        android:layout_width="107dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent"
+        android:onClick="gotohead"
+         />
+
+    <Button
+        android:id="@+id/m2"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/m1"
+        android:background="@android:color/transparent"
+        android:onClick="gotom2"
+       
+        />
+
+    <Button
+        android:id="@+id/m1"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/head"
+        android:background="@android:color/transparent"
+        android:onClick="gotom1"
+         />
+
+    <Button
+        android:id="@+id/m4"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/m3"
+        android:background="@android:color/transparent"
+        android:onClick="gotom4"
+         />
+
+    <Button
+        android:id="@+id/m3"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/m2"
+        android:background="@android:color/transparent"
+        android:onClick="gotom3"
+         />
+    
+     <ProgressBar
+         android:id="@+id/progressbarhead"
+         style="?android:attr/progressBarStyleHorizontal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:max="500"
+         android:minHeight="50dip"
+         android:minWidth="107dip"/>
+      <ProgressBar
+         android:id="@+id/progressbarm1"
+         style="?android:attr/progressBarStyleHorizontal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_toRightOf="@+id/progressbarhead"
+         android:layout_marginLeft="25dp"
+         android:max="500"
+         android:minHeight="50dip"
+         android:minWidth="107dip"/>
+       <ProgressBar
+         android:id="@+id/progressbarm2"
+         style="?android:attr/progressBarStyleHorizontal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_toRightOf="@+id/progressbarm1"
+         android:layout_marginLeft="25dp"
+         android:max="500"
+         android:minHeight="50dip"
+         android:minWidth="107dip"/>
+        <ProgressBar
+         android:id="@+id/progressbarm3"
+         style="?android:attr/progressBarStyleHorizontal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_toRightOf="@+id/progressbarm2"
+         android:layout_marginLeft="25dp"
+         android:max="500"
+         android:minHeight="50dip"
+         android:minWidth="107dip"/>
+         <ProgressBar
+         android:id="@+id/progressbarm4"
+         style="?android:attr/progressBarStyleHorizontal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_toRightOf="@+id/progressbarm3"
+         android:layout_marginLeft="25dp"
+         android:max="500"
+         android:minHeight="50dip"
+         android:minWidth="107dip"/>
+     
+         <TextView
+        android:id="@+id/textfieldhead"
+        android:layout_marginTop="40dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+          <TextView
+        android:id="@+id/textfieldm1"
+        android:layout_marginTop="40dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textfieldhead"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center"/>
+           <TextView
+        android:id="@+id/textfieldm2"
+        android:layout_marginTop="40dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textfieldm1"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center"/>
+            <TextView
+        android:id="@+id/textfieldm3"
+        android:layout_marginTop="40dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textfieldm2"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center"/>
+             <TextView
+        android:id="@+id/textfieldm4"
+        android:layout_marginTop="40dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textfieldm3"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center"/>
+         
+     
+     
+     
+
+     
+   
+</RelativeLayout>

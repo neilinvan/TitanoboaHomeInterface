@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmodule"
+    android:orientation="vertical" >
+
+    
+    <ProgressBar
+        android:id="@+id/progressBarh21"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:minHeight="15dip"
+        android:layout_width="286dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:id="@+id/progressBar22"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:minHeight="15dip"
+        android:layout_width="286dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:id="@+id/progressBar23"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:minHeight="15dip"
+        android:layout_width="286dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/progressBar24"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:minHeight="15dip"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="280dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar25"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:minHeight="15dip"
+        android:layout_width="286dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content" />
+    
+        <ProgressBar
+        android:id="@+id/progressBar26"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:minHeight="15dip"
+        android:layout_width="286dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:id="@+id/progressBar27"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:minHeight="15dip"
+        android:layout_width="286dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:id="@+id/progressBar28"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:minHeight="15dip"
+        android:layout_width="286dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/progressBar29"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:minHeight="15dip"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="280dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar20"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:minHeight="15dip"
+        android:layout_width="286dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

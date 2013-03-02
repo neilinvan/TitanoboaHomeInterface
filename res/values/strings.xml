@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TitanoboaHomeInterface</string>
+    <string name="action_settings">Settings</string>
+    <string name="pressure">Pressure</string><string name="hello_world">Hello world!</string>
+    <string name="test">this is a test</string>
+    <string name="goback">BACK</string>
+    
+
+</resources>
